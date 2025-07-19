@@ -1,90 +1,24 @@
-header {
-    background-color: rgb(111, 196, 239);
-    height: 80px; 
-    font-size: 39px;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    color: aliceblue;
-}
-    
-
-.divisa {
-  position: absolute;
-  width: 15%;
-  height: 950px;
-  background-color: #5a5c5e;
-  z-index: 2;
-}
-
-.contato {
-    font-size: medium;
-    text-align: center;
-}
-
-.formação {
-    font-size: 25px;
-    list-style: none;
-    text-align: left;
-}
-
-.lista {
-    font-size: 15px;
-    list-style: none;
-}
-
-main {
-  padding-left: 301px;
-}
-
-h2 {
-    background-color: rgb(147, 147, 147);
-    height: 40px; 
-    font-size: 35px;
-    color: rgb(11, 11, 11);
-    border-radius: 10px;
-}
-
-.lado {
-   display: flex;
-   padding-left: 500px;
- margin-top: -110px;
- display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-
-}
-
 body {
-    background-color: #bdbec0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: auto;
+  background-color: #ccc;
+}
+h2 {
+  background-color: rgb(125, 135, 144);
+  text-align: center;
+}
+.pp {
+  text-align: center;
+}
+h3 {
+  background-color: rgb(108, 111, 111);
+  color: #2b34b0;
+  font-size: 26px;
+  border-bottom: solid 3px;
 }
 
-@media (max-width: 1000px) {
-  .divisa {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-
-  main {
-    padding-left: 0;
-  }
-
-  .lado {
-    padding-left: 0;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header {
-    font-size: 25px;
-    height: auto;
-    padding: 10px;
-  }
-
-  h2 {
-    font-size: 25px;
-    text-align: center;
-  }
+.habilidades2{
+   padding-left: 500px;
+ margin-top: -140px;
 }
