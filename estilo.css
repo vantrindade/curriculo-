@@ -4,7 +4,7 @@ body {
   margin: auto;
   background-color: #ccc;
 }
-h2 {
+h1 {
   background-color: rgb(125, 135, 144);
   text-align: center;
 }
@@ -19,6 +19,10 @@ h3 {
 }
 
 .habilidades2{
-   padding-left: 500px;
+ padding-left: 500px;
  margin-top: -140px;
+}
+.cont {
+  border: solid 1px;
+  background-color: rgb(11, 109, 207);
 }
